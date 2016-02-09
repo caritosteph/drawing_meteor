@@ -1,0 +1,44 @@
+<head>
+    <title>1-wall</title>
+</head>
+
+<body>
+    {{> header}} {{> home}}
+    <!-- {{> wall}} -->
+</body>
+<template name="wall">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <button class='clear btn btn-warning btn-md'>Clear</button>
+                <button class='thicker btn btn-Thicker btn-md'>Thicker</button>
+                <button class='thinner btn btn-Thinner btn-md'>Thinner</button><br><br><br><br><br>
+
+                <button class='red btn btn-danger btn-md'>Red</button>
+                <button class='blue btn btn-blue btn-md'>Blue</button><br><br>
+                <button class='green btn btn-success btn-md'>Green</button>
+                <button class='black btn btn-md btn-black'>Black</button><br><br>
+                <button class='white btn btn-md btn-white'>White</button>
+                <button class='beige btn btn-md btn-Beige'>Beige</button><br><br>
+                <button class='yellow btn btn-md btn-Yellow'>Yellow</button>
+                <button class='orange btn btn-md btn-Orange'>Orange</button><br><br>
+                <button class='pink btn btn-md btn-Pink'>Pink</button>
+                <button class='brown btn btn-md btn-Brown'>Brown</button><br><br>
+                <button class='cyan btn btn-md btn-Cyan'>Cyan</button>
+                <button class='gray btn btn-md btn-Gray'>Gray</button><br><br>
+                <button class='violet btn btn-md btn-Violet'>Violet</button>
+                <button class='aqua btn btn-md btn-Aqua'>Aqua</button><br><br>
+                <button class='skyblue btn btn-md btn-Skyblue'>Sky blue</button>
+                <button class='fuchsia btn btn-md btn-Fuchsia'>Fuchsia</button><br><br>
+            </div>
+            <div class="col-md-9">
+              <div class="canvas">
+                  {{> canvas}}
+              </div>
+            </div>
+        </div>
+    </div>
+</template>
+<template name="canvas">
+    <div id='canvas'></div>
+</template>

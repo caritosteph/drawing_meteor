@@ -1,0 +1,198 @@
+/*General css*/
+body{
+    background-color: #70E4D1;
+}
+h1 {
+    font-family: "Playfair display";
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    //font-family: "Roboto";
+    font-size: 24pt;
+    color: #9b9b9b;
+}
+
+h4 {
+    font-size: 18pt;
+    color: #9b9b9b;
+}
+
+h4.feature {
+    color: #ffffff;
+}
+
+button a {
+    color: #fff;
+}
+button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+/*Jumbotron*/
+
+h1.text-title {
+    font-size: 40pt;
+}
+
+h2.text-msg {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.jumbotron {
+    background: #70E4D1 no-repeat center;
+    color: #fff;
+    padding-top: 135px;
+    padding-bottom: 80px;
+    background-size: cover;
+    border: none;
+}
+
+.ctnButton {
+    margin-top: 50px;
+}
+
+.container-blog {
+    padding: 40px 0;
+}
+
+
+/*containers*/
+
+section.market {
+    background-color: #ffffff;
+    padding: 75px 0 130px 0;
+}
+
+.market blockquote {
+    text-align: center;
+    border-left: none;
+}
+
+h1.text-market {
+    text-align: center;
+    color: #000;
+    margin: auto;
+}
+
+.text-cita {
+    margin-top: 24px;
+    font-size: 24pt;
+    margin-left: 18%;
+    color: #9b9b9b;
+}
+
+
+/*Features*/
+
+section.features {
+    padding: 80px 0;
+    background: #70E4D1 no-repeat center;
+}
+
+.features-center {
+    text-align: center;
+}
+
+
+/*Footer*/
+.footer-centered {
+
+    width: 100%;
+    text-align: center;
+    font-size: 18pt;
+    padding-bottom: 101px;
+    padding-top: 97px;
+    margin-top: 80px;
+}
+
+.footer-centered .footer-links a {
+    color: #ffffff;
+    padding: 35px 0px 46px 14px;
+    margin: 0px;
+}
+
+.footer-centered .footer-links a:hover {
+    color: #25613E;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #895DCA;
+    border-color: #895DCA;
+}
+
+.btn-primary:hover {
+    background-color: #4C2A7D;
+}
+
+/* Mobile Button */
+@media (min-width: 480px) {
+   .logo-image{
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+   .logo-image{
+    width: 90%;
+  }
+}
+
+.landing-mobilemenu-button {
+    background-position: -566px -763px;
+    width: 32px;
+    height: 23px;
+}
+
+.landing-mobilemenu-button:hover {
+    background-color: transparent;
+}
+
+.meteor-blog-post {
+    background-color: #BDA0E8;
+    border: 1px solid #4C2A7D 5px;
+}
+
+.meteor-blog-post-meta {
+    color: #fff;
+}
+
+.meteor-blog-index .meteor-blog-post h2 a {
+    color: #fff;
+}
+
+.meteor-blog-index .meteor-blog-post-meta {
+    color: #fff;
+}
+
+small,
+.small {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #4cae4c;
+    border-color: #5cb85c;
+}
+
+.table-bordered {
+    border: 2px solid #4B3273;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #D3B0EC;
+}

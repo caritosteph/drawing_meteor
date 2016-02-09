@@ -1,0 +1,135 @@
+.canvas{
+	border: 1px solid #70E4D1;
+}
+.btn-Thicker{
+	background-color: purple;
+	color: #fff;
+}
+.btn-Thinner{
+	background-color: #FF8E69;
+	color: #fff;
+}
+.btn-Thicker:hover{
+	color: #fff;
+	background-color: #773292;
+}
+
+.btn-Thinner:hover{
+	color: #fff;
+	background-color: #E88D47;
+}
+.btn-blue{
+	color: #fff;
+	background-color: #3D49FF;
+}
+.btn-blue:hover{
+	color: #fff;
+	background-color: #333FEC;
+}
+
+.btn-black{
+	color: #fff;
+	background-color: #170221;
+}
+.btn-black:hover{
+	color: #fff;
+	background-color: #0B0110;
+}
+
+.btn-white{
+	color: #000;
+	background-color: #FBF7F7;
+}
+.btn-white:hover{
+	color: #000;
+	background-color: #F1F1F1;
+}
+
+.btn-Beige{
+	color: #000;
+	background-color: #F5F5DC;
+}
+.btn-Beige:hover{
+	color: #000;
+	background-color: #ECECD5;
+}
+.btn-Yellow{
+	color: #000;
+	background-color: yellow;
+}
+.btn-Yellow:hover{
+	color: #000;
+	background-color: #F9F93B;
+}
+.btn-Orange{
+	color: #000;
+	background-color: orange;
+}
+.btn-Orange:hover{
+	color: #000;
+	background-color: #EC9A03;
+}
+.btn-Pink{
+	color: #000;
+	background-color: #F4C2C2;
+}
+.btn-Pink:hover{
+	color: #000;
+	background-color: #ECBBBB;
+}
+.btn-Brown{
+	color: #000;
+	background-color: #D29672;
+}
+.btn-Brown:hover{
+	color: #000;
+	background-color: #D0936F;
+}
+.btn-Cyan{
+	color: #000;
+	background-color: #00FFFF;
+}
+.btn-Cyan:hover{
+	color: #000;
+	background-color: #02F7F7;
+}
+.btn-Gray{
+	color: #fff;
+	background-color: gray;
+}
+.btn-Gray:hover{
+	color: #fff;
+	background-color: #797777;
+}
+.btn-Violet{
+	color: #fff;
+	background-color: #B284BE;
+}
+.btn-Violet:hover{
+	color: #fff;
+	background-color: #A779B3;
+}
+.btn-Aqua{
+	color: #000;
+	background-color: #C3FFFF;
+}
+.btn-Aqua:hover{
+	color: #000;
+	background-color: #B8F3F3;
+}
+.btn-Skyblue{
+	color: #000;
+	background-color: #B2FFFF;
+}
+.btn-Skyblue:hover{
+	color: #000;
+	background-color: #B8F5FF;
+}
+.btn-Fuchsia{
+	color: #fff;
+	background-color: #FF00FF;
+}
+.btn-Fuchsia:hover{
+	color: #fff;
+	background-color: #E803E8;
+}
