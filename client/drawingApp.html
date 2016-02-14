@@ -3,42 +3,84 @@
 </head>
 
 <body>
-    {{> header}} {{> home}}
+    {{> header}}
+    {{> home}}
     <!-- {{> wall}} -->
+    <script type="text/javascript">
+    d3.select("#export").on("click", function() {
+        var html = d3.select('svg')
+        .attr("version", 1.1)
+        .attr("xmlns", "http://www.w3.org/2000/svg")
+        .node().parentNode.innerHTML;
+
+        var imgsrc = 'data:image/svg+xml;base64,' + btoa(html);
+        var img = '<img src="' + imgsrc + '">';
+        d3.select("#svgdataurl").html(img);
+
+        var canvas = document.querySelector("canvas");
+        context = canvas.getContext("2d");
+
+        var image = new Image;
+        image.src = imgsrc;
+        image.onload = function() {
+        context.drawImage(image, 0, 0);
+
+        var canvasdata = canvas.toDataURL("image/png");
+
+        var a = document.createElement("a");
+        a.download = "drawing.png";
+        a.href = canvasdata;
+        document.body.appendChild(a);
+        a.click();
+      };
+
+    });
+</script>
 </body>
 <template name="wall">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
+            <div id="download"></div>
                 <button class='clear btn btn-warning btn-md'>Clear</button>
-                <button class='thicker btn btn-Thicker btn-md'>Thicker</button>
-                <button class='thinner btn btn-Thinner btn-md'>Thinner</button><br><br><br><br><br>
-
+                <button class='download btn btn-success btn-md' id="export">Export</button><br><br>
+                <p><strong>Choose shape: </strong></p>
+                <button class='line btn btn-info btn-md'>Line</button>
+                <button class='rect btn btn-info btn-md'>Rectangle</button>
+                <button class='circle btn btn-info btn-md'>Circle</button><br><br>
+                <p><strong>Choose drawing methods: </strong></p>
+                <button class='thicker btn btn-Thicker btn-md' id="Thicker">Thicker</button>
+                <button class='thinner btn btn-Thinner btn-md' id="Thinner">Thinner</button><br><br>
+                <button class='dash btn btn-Thinner btn-md' disabled="true" id="Dashes">Dashes</button>
+                <button class='lines btn btn-Thinner btn-md' disabled="true" id="Line">Line</button><br><br>
+                <p><strong>Choose color: </strong></p>
                 <button class='red btn btn-danger btn-md'>Red</button>
-                <button class='blue btn btn-blue btn-md'>Blue</button><br><br>
-                <button class='green btn btn-success btn-md'>Green</button>
-                <button class='black btn btn-md btn-black'>Black</button><br><br>
+                <button class='blue btn btn-blue btn-md'>Blue</button>
+                <button class='green btn btn-success btn-md'>Green</button><br><br>
+                <button class='black btn btn-md btn-black'>Black</button>
                 <button class='white btn btn-md btn-white'>White</button>
                 <button class='beige btn btn-md btn-Beige'>Beige</button><br><br>
                 <button class='yellow btn btn-md btn-Yellow'>Yellow</button>
-                <button class='orange btn btn-md btn-Orange'>Orange</button><br><br>
-                <button class='pink btn btn-md btn-Pink'>Pink</button>
-                <button class='brown btn btn-md btn-Brown'>Brown</button><br><br>
+                <button class='orange btn btn-md btn-Orange'>Orange</button>
+                <button class='pink btn btn-md btn-Pink'>Pink</button><br><br>
+                <button class='brown btn btn-md btn-Brown'>Brown</button>
                 <button class='cyan btn btn-md btn-Cyan'>Cyan</button>
                 <button class='gray btn btn-md btn-Gray'>Gray</button><br><br>
                 <button class='violet btn btn-md btn-Violet'>Violet</button>
-                <button class='aqua btn btn-md btn-Aqua'>Aqua</button><br><br>
-                <button class='skyblue btn btn-md btn-Skyblue'>Sky blue</button>
-                <button class='fuchsia btn btn-md btn-Fuchsia'>Fuchsia</button><br><br>
+                <button class='aqua btn btn-md btn-Aqua'>Aqua</button>
+                <button class='skyblue btn btn-md btn-Skyblue'>Sky blue</button><br><br>
+                <button class='fuchsia btn btn-md btn-Fuchsia'>Fuchsia</button>
             </div>
             <div class="col-md-9">
               <div class="canvas">
                   {{> canvas}}
               </div>
             </div>
+            <canvas width="849" height="600" style="display:none"></canvas>
         </div>
     </div>
 </template>
 <template name="canvas">
     <div id='canvas'></div>
 </template>
+

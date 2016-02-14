@@ -2,21 +2,21 @@
 	border: 1px solid #70E4D1;
 }
 .btn-Thicker{
-	background-color: purple;
+	background-color: #800000;
 	color: #fff;
 }
 .btn-Thinner{
-	background-color: #FF8E69;
+	background-color: #800000;
 	color: #fff;
 }
 .btn-Thicker:hover{
 	color: #fff;
-	background-color: #773292;
+	background-color: #580000;
 }
 
 .btn-Thinner:hover{
 	color: #fff;
-	background-color: #E88D47;
+	background-color: #580000;
 }
 .btn-blue{
 	color: #fff;
