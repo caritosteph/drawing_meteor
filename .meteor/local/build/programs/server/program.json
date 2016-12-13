@@ -8,7 +8,7 @@
       "path": "packages/underscore.js"
     },
     {
-      "node_modules": "npm/meteor/node_modules",
+      "node_modules": "/C/Users/v824432/AppData/Local/.meteor/packages/meteor/1.1.6/npm/node_modules",
       "sourceMap": "packages/meteor.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/meteor.js"
@@ -34,7 +34,7 @@
       "path": "packages/ejson.js"
     },
     {
-      "node_modules": "npm/logging/node_modules",
+      "node_modules": "/C/Users/v824432/AppData/Local/.meteor/packages/logging/1.0.7/npm/node_modules",
       "sourceMap": "packages/logging.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/logging.js"
@@ -149,7 +149,7 @@
       "path": "packages/webapp-hashing.js"
     },
     {
-      "node_modules": "npm/webapp/node_modules",
+      "node_modules": "/C/Users/v824432/AppData/Local/.meteor/packages/webapp/1.2.0/npm/node_modules",
       "sourceMap": "packages/webapp.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/webapp.js"
@@ -175,7 +175,7 @@
       "path": "packages/callback-hook.js"
     },
     {
-      "node_modules": "npm/ddp/node_modules",
+      "node_modules": "/C/Users/v824432/AppData/Local/.meteor/packages/ddp/1.1.0/npm/node_modules",
       "sourceMap": "packages/ddp.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/ddp.js"
@@ -191,7 +191,7 @@
       "path": "packages/insecure.js"
     },
     {
-      "node_modules": "npm/mongo/node_modules",
+      "node_modules": "/C/Users/v824432/AppData/Local/.meteor/packages/mongo/1.1.0/npm/node_modules",
       "sourceMap": "packages/mongo.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/mongo.js"
@@ -212,7 +212,9 @@
       "path": "packages/d3.js"
     },
     {
-      "path": "packages/twbs_bootstrap/packages/twbs_bootstrap.js"
+      "sourceMap": "packages/twbs_bootstrap.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/twbs_bootstrap.js"
     },
     {
       "sourceMap": "packages/fortawesome_fontawesome.js.map",

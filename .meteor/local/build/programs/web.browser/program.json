@@ -255,13 +255,15 @@
       "hash": "dd8bac56f8fd3666d433d2285ae01e52597cc51a"
     },
     {
-      "path": "packages/twbs_bootstrap/packages/twbs_bootstrap.js",
+      "path": "packages/twbs_bootstrap.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/twbs_bootstrap/packages/twbs_bootstrap.js?a6ec2654cd8677b8bb949fe33224e5d1e7d27bc1",
-      "size": 300319,
-      "hash": "a6ec2654cd8677b8bb949fe33224e5d1e7d27bc1"
+      "url": "/packages/twbs_bootstrap.js?59690a9e1e4e6ade9768154f87426a085be0db75",
+      "sourceMap": "packages/twbs_bootstrap.js.map",
+      "sourceMapUrl": "/packages/59690a9e1e4e6ade9768154f87426a085be0db75.map",
+      "size": 301446,
+      "hash": "59690a9e1e4e6ade9768154f87426a085be0db75"
     },
     {
       "path": "packages/fortawesome_fontawesome.js",

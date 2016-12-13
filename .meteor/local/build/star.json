@@ -12,7 +12,9 @@
       "name": "server",
       "arch": "os",
       "path": "programs/server/boot.js",
-      "nodePath": []
+      "nodePath": [
+        "/C/Users/v824432/AppData/Local/.meteor/packages/meteor-tool/1.1.4/mt-os.windows.x86_32/dev_bundle/server-lib/node_modules"
+      ]
     }
   ],
   "meteorRelease": "METEOR@1.1.0.3"
